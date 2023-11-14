@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: Montserrat;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  text-decoration: none;
+  padding-top: 1rem;
+}
+.navbar .nav-logo {
+  position: relative;
+  padding-bottom: 1rem;
+}
+.navbar .nav-logo img {
+  top: 0;
+  position: absolute;
+  max-width: 90px;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+  background-color: #ffe5ec;
+  border-radius: 50%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #F06EAA;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+.navbar ul li a:hover {
+  background-color: #ff758f;
+  border-radius: 5px;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.banner-presentacion {
+  margin-top: 3rem;
+  color: #F06EAA;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #e05780;
+  padding-left: 3rem;
+  overflow: hidden;
+}
+.banner-presentacion .texto-banner {
+  color: #000;
+  position: relative;
+  margin-right: 1rem;
+}
+.banner-presentacion .texto-banner h1 {
+  font-size: 3rem;
+}
+.banner-presentacion .texto-banner p {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.4rem;
+}
+.banner-presentacion img {
+  padding-left: 5rem;
+}
+
+.funcionamiento-pagina, .prevenir-bullying, .tipos-contenedor, .que-es-bullying, .experiencia {
+  max-width: 1200px;
+  margin: auto;
+  color: #F06EAA;
+  margin-top: 5rem;
+}
+.funcionamiento-pagina h2, .prevenir-bullying h2, .tipos-contenedor h2, .que-es-bullying h2, .experiencia h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.funcionamiento-pagina p, .prevenir-bullying p, .tipos-contenedor p, .que-es-bullying p, .experiencia p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.razon-pagina {
+  max-width: 1200px;
+  margin: auto;
+  color: #F06EAA;
+  margin-top: 10rem;
+  border-bottom: 1px solid #8B4566;
+}
+.razon-pagina h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.razon-pagina p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.experiencia {
+  border-bottom: 1px solid #8B4566;
+}
+.experiencia .experiencia-subtitulo {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+.experiencia .contenedor-textarea {
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+}
+.experiencia .contenedor-textarea #contenedor-mensaje {
+  width: 97%;
+  border-radius: 10px;
+  background-color: #ffc2d4;
+  color: #000;
+  font-size: 1.2rem;
+  resize: none;
+  padding: 1rem;
+}
+.experiencia .contenedor-textarea #contenedor-mensaje::-moz-placeholder {
+  color: #6c757d;
+  font-size: 1rem;
+  text-align: center;
+}
+.experiencia .contenedor-textarea #contenedor-mensaje::placeholder {
+  color: #6c757d;
+  font-size: 1rem;
+  text-align: center;
+}
+.experiencia .enviar-experiencia {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  padding: 0.8rem;
+  border-radius: 7px;
+  font-size: 1rem;
+  border: 0;
+  background-color: #522e38;
+  color: #fff;
+  cursor: pointer;
+}
+
+.testimonios {
+  max-width: 1200px;
+  margin: auto;
+  color: #F06EAA;
+  margin-top: 5rem;
+}
+.testimonios .testimonios-titulo {
+  font-size: 2rem;
+  text-align: center;
+}
+.testimonios .experiencias-contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 2rem;
+}
+.testimonios .experiencias-contenedor .experiencias-cards {
+  background-color: #522e38;
+  border-radius: 10px;
+  padding: 0 1rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.testimonios .experiencias-contenedor .experiencias-cards button {
+  font-family: Montserrat;
+  background-color: #8B4566;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.testimonios .experiencias-contenedor .experiencias-cards button:hover {
+  background-color: #ff8fa3;
+  color: #000;
+  transition: all 0.2s;
+}
+
+.que-es-bullying .titulo-bullying {
+  text-align: center;
+  border-top: 1px solid #8B4566;
+  padding-top: 2.5rem;
+}
+.que-es-bullying .descripcion-bullying {
+  font-weight: 300;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #8B4566;
+}
+
+.tipos-contenedor .titulo-tipos {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2.5rem;
+}
+.tipos-contenedor .tipos-de-bullying {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  border: 1px solid #8B4566;
+}
+.tipos-contenedor .tipos-de-bullying .titulo-tipos-bullying {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.tipos-contenedor .tipos-de-bullying .descripcion-tipos-bullying {
+  font-size: 1.2rem;
+  border-left: 1px solid #8B4566;
+  padding-left: 1rem;
+}
+
+.prevenir-bullying .titulo-prevenir {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.prevenir-bullying .formas-prevencion .titulo-formas {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.prevenir-bullying .formas-prevencion .descripcion-prevencion {
+  text-align: start;
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  border-bottom: 1px solid #8B4566;
+}
+
+.footer {
+  font-size: 1rem;
+  color: #F06EAA;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid #8B4566;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1108px) {
+  .banner-presentacion .texto-banner h1 {
+    font-size: 2rem;
+  }
+  .banner-presentacion img {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1016px) {
+  .navbar ul li a {
+    font-size: 1.3rem;
+  }
+  .banner-presentacion .texto-banner h1 {
+    font-size: 1.4rem;
+  }
+  .banner-presentacion .texto-banner p {
+    font-size: 1rem;
+  }
+  .banner-presentacion img {
+    width: 90%;
+    padding: 0;
+  }
+  .funcionamiento-pagina, .experiencia, .que-es-bullying, .tipos-contenedor, .prevenir-bullying {
+    padding: 0 1rem;
+  }
+  .funcionamiento-pagina h2, .experiencia h2, .que-es-bullying h2, .tipos-contenedor h2, .prevenir-bullying h2 {
+    font-size: 1.5rem;
+  }
+  .funcionamiento-pagina p, .experiencia p, .que-es-bullying p, .tipos-contenedor p, .prevenir-bullying p {
+    font-size: 1.2rem;
+  }
+  .razon-pagina {
+    padding: 0 1rem;
+  }
+  .razon-pagina h2 {
+    font-size: 1.5rem;
+  }
+  .razon-pagina p {
+    font-size: 1.2rem;
+  }
+  .experiencia {
+    border-bottom: 1px solid #8B4566;
+  }
+  .experiencia .experiencia-titulo {
+    font-size: 1.5rem;
+  }
+  .experiencia .experiencia-subtitulo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 400;
+  }
+  .experiencia .contenedor-textarea {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje {
+    width: 95%;
+    padding: 0.5rem;
+  }
+  .testimonios .testimonios-titulo {
+    font-size: 1.5rem;
+  }
+  .testimonios .experiencias-contenedor {
+    padding: 0 1rem;
+  }
+  .testimonios .experiencias-contenedor .experiencias-cards {
+    font-size: 0.7rem;
+  }
+  .que-es-bullying .titulo-bullying {
+    font-size: 1.5rem;
+  }
+  .que-es-bullying .descripcion-bullying {
+    font-size: 1.2rem;
+  }
+  .tipos-contenedor .titulo-tipos {
+    font-size: 1.5rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .titulo-tipos-bullying {
+    font-size: 1.3rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .descripcion-tipos-bullying {
+    font-size: 1rem;
+  }
+  .prevenir-bullying .titulo-prevenir {
+    font-size: 1.5rem;
+  }
+  .prevenir-bullying .formas-prevencion .titulo-formas {
+    font-size: 1.5rem;
+  }
+  .prevenir-bullying .formas-prevencion .descripcion-prevencion {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
