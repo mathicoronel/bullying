@@ -156,6 +156,7 @@ body{
     }
 
     .enviar-experiencia{
+        font-family: Montserrat;
         margin-top: 1rem;
         margin-bottom: 4rem;
         padding: 0.8rem;
@@ -307,13 +308,19 @@ body{
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1016px){
+@media only screen and (min-width: 640px) and (max-width: 1016px){
     .navbar{
         ul{
             li{
                 a{
                     font-size: 1.3rem;
                 }
+            }
+        }
+
+        .nav-logo{
+            img{
+                width: 70px;
             }
         }
     }
@@ -359,7 +366,6 @@ body{
     }
 
     .experiencia{
-        @extend .funcionamiento-pagina;
         border-bottom: 1px solid $rosaoscuro;
     
         .experiencia-titulo{
@@ -435,5 +441,336 @@ body{
                 font-size: 1rem;
             }
         }
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 345px) and (max-width: 640px){
+    .navbar{
+        padding-top: 0;
+        ul{
+            padding-left: 0;
+            li{
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        .nav-logo{
+            display: none;
+        }
+    }
+    
+    .banner-presentacion{
+        margin-top: 1rem;
+        padding-left: 1rem;
+        .texto-banner{
+    
+            h1{
+                font-size: 0.8rem;
+            }
+    
+            p{
+                font-size: 0.6rem;
+            }
+        }
+    
+        img{
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    .funcionamiento-pagina{
+        margin-top: 2.5rem;
+        padding: 0 1rem;
+        h2{
+            font-size: 1rem;
+        }
+    
+        p{
+            font-size: 0.6rem;
+        }
+    }
+
+    .razon-pagina{
+        margin-top: 4rem;
+        padding: 0 1rem;
+        h2{
+            font-size: 1rem;
+        }
+    
+        p{
+            font-size: 0.6rem;
+        }
+    }
+
+    .experiencia{
+        border-bottom: 1px solid $rosaoscuro;
+    
+        .experiencia-titulo{
+            font-size: 1rem;
+        }
+
+        .experiencia-subtitulo{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 0.6rem;
+            font-weight: 400;
+        }
+    
+        .contenedor-textarea{
+            justify-content: center;
+            padding: 0 1rem;
+
+            #contenedor-mensaje{
+                width: 95%;
+                padding: 0.5rem;
+                font-size: 0.6rem;
+
+                &::placeholder{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+        .enviar-experiencia{
+            font-size: 0.6rem;
+        }
+    }
+    
+    .testimonios{
+        margin-top: 2.5rem;
+        .testimonios-titulo{
+            font-size: 1rem;
+        }
+        .experiencias-contenedor{
+            padding: 0 1rem;
+            .experiencias-cards{
+                font-size: 0.5rem;
+            }
+        }
+    }
+
+    .que-es-bullying{    
+        .titulo-bullying{
+            font-size: 1rem;
+        }
+    
+        .descripcion-bullying{
+            font-size: 0.6rem;
+        }
+    }
+    
+    .tipos-contenedor{
+        .titulo-tipos{
+            font-size: 1rem;
+        }
+    
+        .tipos-de-bullying{
+            .titulo-tipos-bullying{
+                font-size: 0.8rem;
+            }
+    
+            .descripcion-tipos-bullying{
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    .prevenir-bullying{    
+        .titulo-prevenir{
+            font-size: 1rem;
+        }
+    
+        .formas-prevencion{
+            .titulo-formas{
+                font-size: 0.6rem;
+            }
+    
+            .descripcion-prevencion{
+                padding-bottom: 1rem;
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 345px){
+    .navbar{
+        padding-top: 0;
+        ul{
+            padding-left: 0;
+            li{
+                a{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        .nav-logo{
+            display: none;
+        }
+    }
+    
+    .banner-presentacion{
+        margin-top: 0;
+        padding-left: 0;
+        display: block;
+
+        .texto-banner{
+            padding: 1rem;
+
+            h1{
+                font-size: 0.8rem;
+            }
+    
+            p{
+                position: static;
+                font-size: 0.6rem;
+            }
+        }
+    
+        img{
+            text-align: center;
+            width: 70%;
+            padding-left: 2rem;
+        }
+    }
+
+    .funcionamiento-pagina{
+        margin-top: 2.5rem;
+        padding: 0 1rem;
+        
+        h2{
+            font-size: 1rem;
+        }
+    
+        p{
+            font-size: 0.5rem;
+        }
+    }
+
+    .razon-pagina{
+        margin-top: 4rem;
+        padding: 0 1rem;
+        h2{
+            font-size: 1rem;
+        }
+    
+        p{
+            font-size: 0.6rem;
+        }
+    }
+
+    .experiencia{
+        border-bottom: 1px solid $rosaoscuro;
+    
+        .experiencia-titulo{
+            font-size: 1rem;
+        }
+
+        .experiencia-subtitulo{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 0.6rem;
+            font-weight: 400;
+        }
+    
+        .contenedor-textarea{
+            justify-content: center;
+
+            #contenedor-mensaje{
+                width: 90%;
+                padding: 0.5rem;
+                font-size: 0.6rem;
+
+                &::placeholder{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+        .enviar-experiencia{
+            margin-top: 0;
+            border-radius: 5px;
+            padding: 0.4rem;
+            font-size: 0.4rem;
+        }
+    }
+    
+    .testimonios{
+        margin-top: 2.5rem;
+
+        .testimonios-titulo{
+            font-size: 1rem;
+        }
+
+        .experiencias-contenedor{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0 0.2rem;
+            column-gap: 0.5rem;
+            row-gap: 0.5rem;
+
+            .experiencias-cards{
+                font-size: 0.4rem;
+                padding: 0 0.4rem;
+            }
+        }
+    }
+
+    .que-es-bullying{    
+        .titulo-bullying{
+            font-size: 1rem;
+        }
+    
+        .descripcion-bullying{
+            font-size: 0.6rem;
+        }
+    }
+    
+    .tipos-contenedor{
+        .titulo-tipos{
+            font-size: 1rem;
+        }
+    
+        .tipos-de-bullying{
+            .titulo-tipos-bullying{
+                font-size: 0.8rem;
+            }
+    
+            .descripcion-tipos-bullying{
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    .prevenir-bullying{    
+        .titulo-prevenir{
+            font-size: 1rem;
+        }
+    
+        .formas-prevencion{
+            .titulo-formas{
+                font-size: 0.6rem;
+            }
+    
+            .descripcion-prevencion{
+                padding-bottom: 1rem;
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    .footer{
+        font-size: 0.5rem;
     }
 }

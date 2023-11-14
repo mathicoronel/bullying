@@ -137,6 +137,7 @@ body {
   text-align: center;
 }
 .experiencia .enviar-experiencia {
+  font-family: Montserrat;
   margin-top: 1rem;
   margin-bottom: 4rem;
   padding: 0.8rem;
@@ -257,9 +258,12 @@ body {
     width: 90%;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 1016px) {
+@media only screen and (min-width: 640px) and (max-width: 1016px) {
   .navbar ul li a {
     font-size: 1.3rem;
+  }
+  .navbar .nav-logo img {
+    width: 70px;
   }
   .banner-presentacion .texto-banner h1 {
     font-size: 1.4rem;
@@ -341,5 +345,257 @@ body {
   }
   .prevenir-bullying .formas-prevencion .descripcion-prevencion {
     font-size: 1rem;
+  }
+  .footer {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width: 345px) and (max-width: 640px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar ul {
+    padding-left: 0;
+  }
+  .navbar ul li a {
+    font-size: 0.8rem;
+  }
+  .navbar .nav-logo {
+    display: none;
+  }
+  .banner-presentacion {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+  .banner-presentacion .texto-banner h1 {
+    font-size: 0.8rem;
+  }
+  .banner-presentacion .texto-banner p {
+    font-size: 0.6rem;
+  }
+  .banner-presentacion img {
+    width: 100%;
+    padding: 0;
+  }
+  .funcionamiento-pagina, .experiencia, .que-es-bullying, .tipos-contenedor, .prevenir-bullying {
+    margin-top: 2.5rem;
+    padding: 0 1rem;
+  }
+  .funcionamiento-pagina h2, .experiencia h2, .que-es-bullying h2, .tipos-contenedor h2, .prevenir-bullying h2 {
+    font-size: 1rem;
+  }
+  .funcionamiento-pagina p, .experiencia p, .que-es-bullying p, .tipos-contenedor p, .prevenir-bullying p {
+    font-size: 0.6rem;
+  }
+  .razon-pagina {
+    margin-top: 4rem;
+    padding: 0 1rem;
+  }
+  .razon-pagina h2 {
+    font-size: 1rem;
+  }
+  .razon-pagina p {
+    font-size: 0.6rem;
+  }
+  .experiencia {
+    border-bottom: 1px solid #8B4566;
+  }
+  .experiencia .experiencia-titulo {
+    font-size: 1rem;
+  }
+  .experiencia .experiencia-subtitulo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    font-weight: 400;
+  }
+  .experiencia .contenedor-textarea {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje {
+    width: 95%;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje::-moz-placeholder {
+    font-size: 0.6rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje::placeholder {
+    font-size: 0.6rem;
+  }
+  .experiencia .enviar-experiencia {
+    font-size: 0.6rem;
+  }
+  .testimonios {
+    margin-top: 2.5rem;
+  }
+  .testimonios .testimonios-titulo {
+    font-size: 1rem;
+  }
+  .testimonios .experiencias-contenedor {
+    padding: 0 1rem;
+  }
+  .testimonios .experiencias-contenedor .experiencias-cards {
+    font-size: 0.5rem;
+  }
+  .que-es-bullying .titulo-bullying {
+    font-size: 1rem;
+  }
+  .que-es-bullying .descripcion-bullying {
+    font-size: 0.6rem;
+  }
+  .tipos-contenedor .titulo-tipos {
+    font-size: 1rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .titulo-tipos-bullying {
+    font-size: 0.8rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .descripcion-tipos-bullying {
+    font-size: 0.6rem;
+  }
+  .prevenir-bullying .titulo-prevenir {
+    font-size: 1rem;
+  }
+  .prevenir-bullying .formas-prevencion .titulo-formas {
+    font-size: 0.6rem;
+  }
+  .prevenir-bullying .formas-prevencion .descripcion-prevencion {
+    padding-bottom: 1rem;
+    font-size: 0.6rem;
+  }
+  .footer {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 345px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar ul {
+    padding-left: 0;
+  }
+  .navbar ul li a {
+    font-size: 0.7rem;
+  }
+  .navbar .nav-logo {
+    display: none;
+  }
+  .banner-presentacion {
+    margin-top: 0;
+    padding-left: 0;
+    display: block;
+  }
+  .banner-presentacion .texto-banner {
+    padding: 1rem;
+  }
+  .banner-presentacion .texto-banner h1 {
+    font-size: 0.8rem;
+  }
+  .banner-presentacion .texto-banner p {
+    position: static;
+    font-size: 0.6rem;
+  }
+  .banner-presentacion img {
+    text-align: center;
+    width: 70%;
+    padding-left: 2rem;
+  }
+  .funcionamiento-pagina, .experiencia, .que-es-bullying, .tipos-contenedor, .prevenir-bullying {
+    margin-top: 2.5rem;
+    padding: 0 1rem;
+  }
+  .funcionamiento-pagina h2, .experiencia h2, .que-es-bullying h2, .tipos-contenedor h2, .prevenir-bullying h2 {
+    font-size: 1rem;
+  }
+  .funcionamiento-pagina p, .experiencia p, .que-es-bullying p, .tipos-contenedor p, .prevenir-bullying p {
+    font-size: 0.5rem;
+  }
+  .razon-pagina {
+    margin-top: 4rem;
+    padding: 0 1rem;
+  }
+  .razon-pagina h2 {
+    font-size: 1rem;
+  }
+  .razon-pagina p {
+    font-size: 0.6rem;
+  }
+  .experiencia {
+    border-bottom: 1px solid #8B4566;
+  }
+  .experiencia .experiencia-titulo {
+    font-size: 1rem;
+  }
+  .experiencia .experiencia-subtitulo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    font-weight: 400;
+  }
+  .experiencia .contenedor-textarea {
+    justify-content: center;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje {
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje::-moz-placeholder {
+    font-size: 0.6rem;
+  }
+  .experiencia .contenedor-textarea #contenedor-mensaje::placeholder {
+    font-size: 0.6rem;
+  }
+  .experiencia .enviar-experiencia {
+    margin-top: 0;
+    border-radius: 5px;
+    padding: 0.4rem;
+    font-size: 0.4rem;
+  }
+  .testimonios {
+    margin-top: 2.5rem;
+  }
+  .testimonios .testimonios-titulo {
+    font-size: 1rem;
+  }
+  .testimonios .experiencias-contenedor {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 0.2rem;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+    row-gap: 0.5rem;
+  }
+  .testimonios .experiencias-contenedor .experiencias-cards {
+    font-size: 0.4rem;
+    padding: 0 0.4rem;
+  }
+  .que-es-bullying .titulo-bullying {
+    font-size: 1rem;
+  }
+  .que-es-bullying .descripcion-bullying {
+    font-size: 0.6rem;
+  }
+  .tipos-contenedor .titulo-tipos {
+    font-size: 1rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .titulo-tipos-bullying {
+    font-size: 0.8rem;
+  }
+  .tipos-contenedor .tipos-de-bullying .descripcion-tipos-bullying {
+    font-size: 0.6rem;
+  }
+  .prevenir-bullying .titulo-prevenir {
+    font-size: 1rem;
+  }
+  .prevenir-bullying .formas-prevencion .titulo-formas {
+    font-size: 0.6rem;
+  }
+  .prevenir-bullying .formas-prevencion .descripcion-prevencion {
+    padding-bottom: 1rem;
+    font-size: 0.6rem;
+  }
+  .footer {
+    font-size: 0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */
