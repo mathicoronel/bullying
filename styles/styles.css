@@ -183,6 +183,7 @@ body {
   padding: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
+  margin-bottom: 0.5rem;
 }
 .testimonios .experiencias-contenedor .experiencias-cards button:hover {
   background-color: #ff8fa3;
@@ -322,6 +323,9 @@ body {
   .testimonios .experiencias-contenedor .experiencias-cards {
     font-size: 0.7rem;
   }
+  .testimonios .experiencias-contenedor .experiencias-cards button {
+    font-size: 0.5rem;
+  }
   .que-es-bullying .titulo-bullying {
     font-size: 1.5rem;
   }
@@ -438,6 +442,10 @@ body {
   }
   .testimonios .experiencias-contenedor .experiencias-cards {
     font-size: 0.5rem;
+  }
+  .testimonios .experiencias-contenedor .experiencias-cards button {
+    font-size: 0.4rem;
+    padding: 0.3rem;
   }
   .que-es-bullying .titulo-bullying {
     font-size: 1rem;
@@ -569,6 +577,10 @@ body {
   .testimonios .experiencias-contenedor .experiencias-cards {
     font-size: 0.4rem;
     padding: 0 0.4rem;
+  }
+  .testimonios .experiencias-contenedor .experiencias-cards button {
+    font-size: 0.4rem;
+    padding: 0.3rem;
   }
   .que-es-bullying .titulo-bullying {
     font-size: 1rem;

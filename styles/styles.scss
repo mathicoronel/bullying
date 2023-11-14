@@ -203,6 +203,7 @@ body{
                 padding: 0.5rem;
                 cursor: pointer;
                 transition: all 0.2s;
+                margin-bottom: 0.5rem;
 
                 &:hover{
                     background-color: #ff8fa3;
@@ -397,6 +398,10 @@ body{
             padding: 0 1rem;
             .experiencias-cards{
                 font-size: 0.7rem;
+
+                & button{
+                    font-size: 0.5rem;
+                }
             }
         }
     }
@@ -552,6 +557,11 @@ body{
             padding: 0 1rem;
             .experiencias-cards{
                 font-size: 0.5rem;
+
+                & button{
+                    font-size: 0.4rem;
+                    padding: 0.3rem;
+                }
             }
         }
     }
@@ -723,6 +733,11 @@ body{
             .experiencias-cards{
                 font-size: 0.4rem;
                 padding: 0 0.4rem;
+
+                & button{
+                    font-size: 0.4rem;
+                    padding: 0.3rem;
+                }
             }
         }
     }
